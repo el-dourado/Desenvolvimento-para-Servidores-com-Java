@@ -1,3 +1,5 @@
+package Projeto1;
+
 public class Prato extends ItemMenu {
     private String descricao;
 

@@ -1,13 +1,15 @@
+package Projeto1;
+
 public class Restaurante {
 
     public static void main(String[] args) {
 
-        System.out.println("--- Pedido 1: Prato ---");
+        System.out.println("--- Pedido 1: Projeto1.Prato ---");
         Prato p1 = new Prato("Feijoada Completa", 55.90, "Feijão preto, carnes de porco, arroz, couve e farofa.");
 
         p1.exibirDetalhes();
 
-        System.out.println("\n--- Pedido 2: Bebida ---");
+        System.out.println("\n--- Pedido 2: Projeto1.Bebida ---");
         Bebida b1 = new Bebida("Suco de Laranja Natural", 8.50, 500);
 
         b1.exibirDetalhes();
